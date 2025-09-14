@@ -1,0 +1,41 @@
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Clear Vision Technology",
+      "image": "https://clearvisiontechnology.in/assets/img/about/neon-cityscape-led.webp",
+      "@id": "https://clearvisiontechnology.in",
+      "url": "https://clearvisiontechnology.in",
+      "telephone": "+91 81222 80206",
+      "email": "info@clearvisiontechnology.in",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "22, Chinna Ellaya Lane, RS Puram",
+        "addressLocality": "Coimbatore",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "641012",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 11.0056,
+        "longitude": 76.9558
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "09:00",
+        "closes": "19:00"
+      },
+      "priceRange": "$$",
+      "description": "Clear Vision Technology provides high-performance LED video walls and visual display solutions in Coimbatore and Tamil Nadu. We specialize in tailored installations, professional service, and long-term maintenance support."
+    }
+    </script>

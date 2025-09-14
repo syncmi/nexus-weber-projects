@@ -1,0 +1,12 @@
+Hosting Firebase Details
+	Name: Glowing Techno Solutions
+	First Name: Glowing Techno
+	Last Name: Solutions
+	DOB: 8/6/1993 June
+	Mail: glowingtechnosolutionshost@gmail.com
+	Password: abcd@1234
+
+Tawk.to
+	Name: Saran Raj
+	Mail: glowingtechnosolutionshost@gmail.com
+	Password: Saran@1993

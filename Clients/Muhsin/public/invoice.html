@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Invoice #325 - S.R. TRADERS</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 5mm;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+
+    
+
+
+        .invoice-container {
+            width: 100%;
+            max-width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            outline: 1px solid black;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        h2,
+        h3,
+        h4 {
+            margin: 0;
+        }
+
+        p {
+            margin: 2px 0;
+            font-size: 13px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid black;
+            margin: 8px 0;
+        }
+
+        .header,
+        .footer {
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 6px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            flex: 0 0 48%;
+            line-height: 1.3;
+            font-size: 13px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 6px;
+            font-size: 12.5px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 4px 6px;
+            text-align: left;
+        }
+
+        th {
+            background: #dceeff;
+        }
+
+        .summary-table td {
+            font-weight: 600;
+        }
+
+        .terms-certify {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+        .terms {
+            flex: 1;
+        }
+
+        .certify {
+            flex: 1;
+            text-align: right;
+        }
+
+        .signature-img {
+            height: 40px;
+            margin-top: 5px;
+        }
+
+        .print-btn {
+            display: block;
+            margin: 15px auto;
+            padding: 6px 16px;
+            background: #007bff;
+            color: white;
+            border: none;
+            font-size: 14px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        @media print {
+            .print-btn {
+                display: none;
+            }
+
+            body {
+                margin: 0;
+                background: #fff;
+            }
+
+            .invoice-container {
+                /* outline: 1px solid black !important; */
+                outline: none !important;
+                box-shadow: none;
+                padding: 5mm;
+            }
+        }
+
+        @media print {
+            .page-border {
+                position: fixed;
+                top: 5mm;
+                left: 5mm;
+                right: 5mm;
+                bottom: 5mm;
+                border: 1px solid black;
+                z-index: 9999;
+            }
+        }
+
+        .spacing {
+            height: 1.3rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="spacing">
+    </div>
+
+    <div class="page-border">
+
+        <div class="invoice-container">
+            <div class="header">
+                <h2>S.R. TRADERS</h2>
+                <p>Sy. No.75/2, Bannur Main Road, Varuna Hobali, Vajamangala, Mysuru - 570028</p>
+                <p>Phone: 7483418053 | GSTIN: 29BERPR1346N1ZM</p>
+                <h3>TAX INVOICE</h3>
+            </div>
+
+            <hr>
+
+            <div class="section row">
+                <div class="column">
+                    <p><strong>Invoice No:</strong> 325</p>
+                    <p><strong>Invoice Date:</strong> 27-06-2025</p>
+                    <p><strong>Vehicle No:</strong> KA09AA4062</p>
+                    <p><strong>Reverse Charge:</strong> No</p>
+                </div>
+                <div class="column" style="text-align: right;">
+                    <p><strong>State:</strong> Karnataka</p>
+                    <p><strong>Code:</strong> 29</p>
+                    <p><strong>Date of Supply:</strong> 27-06-2025</p>
+                    <p><strong>Place of Supply:</strong> Karnataka</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="section row">
+                <div class="column">
+                    <h4>Billed To:</h4>
+                    <p><strong>N R TRADERS</strong></p>
+                    <p>MODUR CROSS, MYSORE CHANNARAYAPATTANA ROAD</p>
+                    <p>KRISHNARAJAPETE TQ, Mandya – 571426</p>
+                    <p>GSTIN: 29GGVPS8309M1Z1</p>
+                    <p>State: Karnataka</p>
+                </div>
+                <div class="column">
+                    <h4>Shipped To:</h4>
+                    <p><strong>N R TRADERS</strong></p>
+                    <p>MODUR CROSS, MYSORE CHANNARAYAPATTANA ROAD</p>
+                    <p>KRISHNARAJAPETE TQ, Mandya – 571426</p>
+                    <p>GSTIN: 29GGVPS8309M1Z1</p>
+                    <p>State: Karnataka</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sr. No</th>
+                        <th>Description</th>
+                        <th>HSN</th>
+                        <th>Qty</th>
+                        <th>Unit</th>
+                        <th>Rate</th>
+                        <th>Taxable Value</th>
+                        <th>CGST<br>Rate</th>
+                        <th>CGST<br>Amount</th>
+                        <th>SGST<br>Rate</th>
+                        <th>SGST<br>Amount</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Korai Mat</td>
+                        <td>4601</td>
+                        <td>150</td>
+                        <td>BDL</td>
+                        <td>₹210</td>
+                        <td>₹31,500.00</td>
+                        <td>2.5%</td>
+                        <td>₹787.50</td>
+                        <td>2.5%</td>
+                        <td>₹787.50</td>
+                        <td>₹33,075.00</td>
+                    </tr>
+                    <!-- Add more rows here if needed -->
+                </tbody>
+            </table>
+
+            <hr>
+
+            <table class="summary-table">
+                <tr>
+                    <td colspan="9" class="text-right">Total Quantity:</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td colspan="9" class="text-right">Total Before Tax:</td>
+                    <td>₹31,500.00</td>
+                </tr>
+                <tr>
+                    <td colspan="9" class="text-right">CGST (2.5%):</td>
+                    <td>₹787.50</td>
+                </tr>
+                <tr>
+                    <td colspan="9" class="text-right">SGST (2.5%):</td>
+                    <td>₹787.50</td>
+                </tr>
+                <tr>
+                    <td colspan="9" class="text-right">Total GST:</td>
+                    <td>₹1,575.00</td>
+                </tr>
+                <tr>
+                    <td colspan="9" class="text-right">Total Invoice Amount:</td>
+                    <td><strong>₹33,075.00</strong></td>
+                </tr>
+                <tr>
+                    <td colspan="10" class="text-right"><em>Thirty Three Thousand Seventy Five Rupees Only</em></td>
+                </tr>
+            </table>
+
+            <hr>
+
+            <div class="terms-certify">
+                <div class="terms">
+                    <p><strong>Terms & Conditions:</strong></p>
+                    <ul style="margin: 0; padding-left: 16px;">
+                        <li>This is an electronically generated invoice.</li>
+                        <li>All disputes are subject to Mysuru jurisdiction.</li>
+                    </ul>
+                </div>
+                <div class="certify">
+                    <p><strong>For S.R. TRADERS</strong></p>
+                    <img class="signature-img" src="sign.png" alt="Signature" />
+                    <p><em>Authorised Signatory</em></p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>Thank you for your business!</p>
+            </div>
+        </div>
+
+        <button class="print-btn" onclick="window.print()">🖨️ Print Invoice</button>
+</body>
+
+</html>
